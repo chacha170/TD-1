@@ -1,0 +1,113 @@
+.navbar{
+    background-color: blueviolet;
+    padding: 1rem;
+    display: flex;              
+    align-items: center;        
+    justify-content: space-between; 
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.navbar ul li ,a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar button{
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+}
+.texte{
+    color: white;
+}
+.img1{
+    width: 80px;
+    height: 50px;
+    
+  
+}
+.btn{
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+.premier{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 5px;
+  
+}
+.first{
+    background-color: orange;
+    margin: 10px;
+   
+   
+    
+}
+.btn-rechercher{
+    margin: 10px;
+    padding: 10px 500px;
+    font-size: 20px;
+    background-color:burlywood;
+    color: gray;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer
+}
+.art1{
+    border: 4px solid rgb(252, 249, 249);
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px  white;
+   
+   
+    
+}
+.gros{
+     display: flex;        
+    gap: 20px;
+}
+.img2{
+    width: 300px;
+    height: 100px;
+}
+.btn1{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid blueviolet;
+    padding: 5px 10px;
+    display: block;
+    margin: auto;
+}
+.img3{
+    width: 250px;
+    height: 100px;
+}
+.pied{
+    background-color:darkslateblue;
+    text-align: center;
+    margin: 10px;
+}
+.titre3{
+    color: blue;
+    text-decoration: underline;
+   text-align: center;
+}
+.boutique1{
+     border: 2px solid  rgb(88, 81, 81);
+    background-color: rgb(88, 81, 81);
+    border-radius: 5px;
+}
