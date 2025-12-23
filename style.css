@@ -1,0 +1,104 @@
+.navbar{
+    background-color: blueviolet;
+    padding: 1rem;
+    display: flex;              
+    align-items: center;        
+    justify-content: space-between; 
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.navbar ul li ,a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar button{
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+}
+.texte{
+    color: white;
+}
+.img1{
+    width: 80px;
+    height: 50px;
+    
+  
+}
+.btn{
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+.premier{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 5px;
+  
+}
+.deuxieme{
+        background-color: orange;
+        margin: 5px;
+        padding: 2rem;
+       text-align: center;
+       border: 5px solid orange;
+       
+    }
+.titre1, .p1{
+        color: white;
+    }
+.btn2{
+        background-color: blueviolet;
+        color: white;
+        border-radius: 10px ;
+        border: 2px solid blueviolet;
+    }
+.ha{
+        text-align: center ;
+        color: blueviolet;
+    }
+ .titre2{
+        color: blue;
+        text-decoration: underline;
+    }
+
+.trois{
+    display: flex;
+    justify-content:space-between;
+    margin: 5px;
+}
+.img2 ,.img3 ,.img4 ,.img5{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+   
+}
+.art1{
+    gap: 1rem;
+    margin: 5px;
+    
+}
+.acceuil1{
+    border: 2px solid  rgb(88, 81, 81);
+    background-color: rgb(88, 81, 81);
+    border-radius: 5px;
+}
+.pied{
+    background-color:darkslateblue;
+    text-align: center;
+}
+.titre3{
+    color: blue;
+    text-decoration: underline;
+   text-align: center;
+}
