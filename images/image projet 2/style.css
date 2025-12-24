@@ -1,0 +1,117 @@
+/* Page accueil*/
+.carousel-caption {
+    top: 60%;
+    transform: translateY(-50%);
+    bottom: auto;
+}
+
+.carousel-caption h5 {
+    color: rgb(12, 12, 12);
+    font-size: 2rem;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.carousel-caption p {
+    color: rgb(20, 20, 20);
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.container h2 {
+    margin-top: 30px;
+}
+
+/*Page categories*/
+
+
+.page-categories {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.intro-section h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.intro-section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* SECTIONS (NOUVEAUTÉS / LIVRES / FOURNITURES) */
+.category-section {
+    padding: 70px 0;
+}
+
+.category-section.bg-light {
+    background-color: #eef2f5;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 45px;
+    color: #222;
+}
+
+/* CARTES PRODUITS */
+
+.carte-produit {
+    background-color: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* IMAGES PRODUITS */
+.carte-produit img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+/* CONTENU PRODUIT */
+.produit-info {
+    padding: 18px;
+}
+
+.produit-info h5 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+    font-weight: 50;
+    color: #222;
+}
+
+/* PRIX */
+.price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 12px;
+}
+
+/* BOUTONS */
+.produit-info .btn {
+    margin: 3px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 18px 0;
+    font-size: 0.9rem;
+}
